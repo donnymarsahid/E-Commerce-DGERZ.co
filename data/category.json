@@ -1,0 +1,6 @@
+[
+  { "id": "9df06261-11db-4a1d-926b-fa73f23c9ba5", "name": "man", "images": "man.png", "create": "July 27, 2021 10:07 PM" },
+  { "id": "4166257d-688b-424f-a911-8c82ff2223b9", "name": "women", "images": "women.png", "create": "July 27, 2021 10:07 PM" },
+  { "id": "87d71b82-2787-4c39-a1eb-c3eaeb3fbbde", "name": "accessories", "images": "accessories.png", "create": "July 27, 2021 10:09 PM" },
+  { "id": "903ab943-6150-48b2-b428-d1ee98a43712", "name": "women dresses", "images": "womendresses.png", "create": "July 27, 2021 10:12 PM" }
+]
