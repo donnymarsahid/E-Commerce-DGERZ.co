@@ -1,0 +1,33 @@
+.login {
+  height: 100vh;
+  width: 100%;
+}
+
+.login h3 {
+  font-size: 26px;
+}
+
+.login p {
+  margin: 0;
+}
+
+.login input {
+  outline: none;
+  width: 352px;
+  height: 40px;
+  padding: 10px;
+}
+
+.container-login {
+  width: 50%;
+  height: 80%;
+}
+
+.login .container-login button {
+  width: 352px;
+  height: 40px;
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px !important;
+}

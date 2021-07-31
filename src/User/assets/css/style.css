@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+:root {
+  --black: #3d3d3d;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--black);
+}
+
+body p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Navbar Start */
+nav {
+  height: 110px;
+  width: 100%;
+  background-color: white;
+}
+
+nav .container-navbar {
+  width: 90%;
+  margin: auto;
+}
+nav .logo-nav-link .link-router,
+nav .logo-nav-link .link-router p {
+  text-decoration: none;
+  color: var(--black);
+  margin: 0;
+}
+
+nav .profile,
+nav .search-cart {
+  width: 30%;
+}
+
+nav .logo-nav-link {
+  width: 40%;
+}
+
+nav .navbar-link ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav .navbar-link ul li::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  border-radius: 5px;
+  background-color: var(--black);
+  margin: auto;
+  transition: 0.2s;
+}
+nav .navbar-link ul li:hover:after {
+  content: '';
+  width: 90%;
+}
+
+nav .navbar-link ul li {
+  list-style: none;
+}
+
+nav .search p {
+  padding: 2px 0 0 4px;
+}
+
+nav .cart p {
+  padding: 2px 0 0 4px;
+}
+
+/* Navbar End */
+
+/* Header Start */
+header .jumbotron {
+  background-image: url('../img/header.png');
+  height: 400px;
+  margin-top: 110px;
+  background-size: cover;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+header p {
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+  letter-spacing: 1.5px;
+}
+header h3 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+}
+header .container button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+header .container button:hover {
+  background-color: white;
+  border: 1.5px solid white;
+  color: var(--black);
+}
+/* Header End */
+
+/* Section Start */
+section {
+  margin-top: 100px;
+}
+
+section .image-overlay {
+  position: relative;
+}
+
+section .image-overlay .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.253);
+  transition: 0.2s;
+  cursor: pointer;
+}
+section .image-overlay .overlay:hover {
+  opacity: 1;
+}
+
+section .container-onsale,
+section .container-category {
+  width: 95%;
+  margin: auto;
+}
+
+section .row {
+  width: 100%;
+  margin: auto;
+}
+section h3 {
+  font-size: 20px;
+}
+section .row .col-md-3 {
+  padding: 8px;
+}
+
+section .row .col-md-3 p {
+  margin: 0;
+}
+
+section button {
+  background-color: transparent;
+  border: 1.5px solid var(--black);
+  color: var(--black);
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+section button:hover {
+  background-color: var(--black);
+  border: 1.5px solid var(--black);
+  color: white;
+}
+/* Section End */
+
+/* Content Start */
+.content .jumbotron {
+  background-image: url('../img/jb-content.png');
+  height: 400px;
+  margin-top: 110px;
+  background-size: cover;
+}
+
+.content .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content p {
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+  letter-spacing: 1.5px;
+}
+.content h3 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+}
+.content .container button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.content .container button:hover {
+  background-color: white;
+  border: 1.5px solid white;
+  color: var(--black);
+}
+/* Content End */
+
+/* OurLook Start */
+.our-look {
+  width: 70%;
+  margin: 150px auto;
+}
+.our-look .image,
+.our-look .shop-detail {
+  width: 45%;
+}
+.our-look h3.title {
+  font-size: 28px;
+}
+.our-look .title h3 {
+  font-size: 20px;
+}
+.our-look button.btn-shop-detail {
+  background-color: var(--black);
+  color: white;
+  border: 1.5px solid var(--black);
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+.our-look button.btn-shop-detail.add-cart {
+  background-color: transparent;
+  color: var(--black);
+  border: 1.5px solid var(--black);
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+.our-look button.btn-shop-detail.add-cart:hover {
+  background-color: var(--black);
+  color: white;
+  border: 1.5px solid var(--black);
+}
+.our-look button.btn-shop-detail:hover {
+  background-color: #555555;
+  color: white;
+  border: 1.5px solid var(--black);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.13);
+}
+/* OurLook End */
+
+/* Promo Start */
+.promo {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.promo button {
+  background-color: var(--black);
+  color: white;
+  border-radius: 5px;
+  padding: 6px 12px;
+  border: 1.5px solid var(--black);
+}
+.promo button:hover {
+  background-color: transparent;
+  color: var(--black);
+  border: 1.5px solid var(--black);
+}
+/* Promo End */
+
+/* Footer Start */
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: var(--black);
+  overflow-x: hidden;
+  padding: 50px 50px 10px 50px;
+}
+footer p {
+  color: white;
+}
+footer ul,
+footer ul li {
+  padding: 0;
+  list-style: none;
+}
+footer .link-router {
+  text-decoration: none;
+}
+footer input {
+  outline: none;
+  border-radius: 3px;
+  font-size: 12px;
+  border: none;
+  padding: 8px 16px;
+}
+footer button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+footer button:hover {
+  background-color: white;
+  border: 1.5px solid white;
+  color: var(--black);
+}
+/* Footer End */

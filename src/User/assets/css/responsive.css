@@ -1,0 +1,232 @@
+/* Mobile Small */
+@media (max-width: 320px) {
+  nav .hamburger-menu svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  nav .logo-nav-link img {
+    width: 110px !important;
+  }
+}
+
+/* Mobile / to Tablet / Landscape */
+@media (max-width: 767px) {
+  body p {
+    font-size: 12px;
+  }
+  nav {
+    height: 75px;
+    width: 100%;
+  }
+  nav .navbar-link {
+    display: none;
+  }
+  nav .profile.d-flex {
+    display: none !important;
+  }
+  nav .container-navbar {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  nav .hamburger-menu {
+    order: 1;
+  }
+  nav .logo-nav-link {
+    order: 2;
+  }
+  nav .logo-nav-link img {
+    width: 140px;
+  }
+  nav .search-cart {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  nav .search-cart .cart p {
+    font-size: 12px;
+    padding: 5px 0 0 3px;
+  }
+  nav .search-cart .search,
+  nav .search-cart .search p {
+    display: none !important;
+  }
+  nav .search-cart .hide {
+    display: none;
+  }
+  nav .search-cart .search {
+    margin: 0;
+  }
+
+  nav .hamburger-menu svg {
+    width: 30px;
+    height: 30px;
+  }
+  nav .search-cart .cart svg {
+    width: 20px;
+    height: 20px;
+    padding: 2px 0 0 0;
+  }
+
+  nav .hamburger-menu,
+  nav .search-cart {
+    width: 25%;
+  }
+  nav .hamburger-menu button.btn-offcanvas {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+  nav .logo-nav-link {
+    width: 50%;
+  }
+  nav .offcanvas {
+    width: 75%;
+  }
+  nav .offcanvas img {
+    width: 110px;
+  }
+  nav .offcanvas ul .link-router,
+  nav .offcanvas ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+  header .jumbotron {
+    background-image: url('../img/header-mobile.png');
+    height: 400px;
+    margin-top: 75px;
+    background-size: cover;
+  }
+  section .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .content .jumbotron {
+    background-image: url('../img/jb-content-mobile.png');
+    height: 400px;
+    margin-top: 110px;
+    background-size: cover;
+  }
+  footer {
+    height: 680px;
+  }
+  footer .row {
+    height: 500px;
+    display: flex;
+  }
+  footer .col-md-4 {
+    width: 50%;
+  }
+  footer .about-shop {
+    order: 1;
+  }
+  footer .footer-menu {
+    order: 3;
+  }
+  footer .subscribe {
+    order: 2;
+  }
+  footer input {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+  .our-look .d-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-look .d-flex .image,
+  .our-look .d-flex .shop-detail {
+    width: 100%;
+  }
+  .our-look .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .our-look button {
+    font-size: 14px;
+  }
+  nav .navbar-link ul li .box {
+    display: none;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  body p {
+    font-size: 12px;
+  }
+  body nav svg {
+    width: 20px;
+  }
+  nav .hamburger-menu,
+  nav .offcanvas {
+    display: none;
+  }
+  nav .navbar-link ul {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  nav .search-cart .search {
+    margin: 0 10px 0 0 !important;
+    padding: 5px;
+  }
+  nav .search-cart .cart p {
+    padding-top: 5px;
+  }
+  nav .profile svg {
+    width: 26px;
+  }
+  nav .search-cart svg {
+    width: 18px;
+  }
+  header .jumbotron {
+    background-image: url('../img/header-tablet.png');
+    height: 400px;
+    margin-top: 110px;
+    background-size: cover;
+  }
+  .content .jumbotron {
+    background-image: url('../img/jb-content-tablet.png');
+    height: 400px;
+    margin-top: 110px;
+    background-size: cover;
+  }
+  nav .navbar-link ul li.category:hover .box,
+  nav .navbar-link ul li.store:hover .box {
+    visibility: visible;
+  }
+  nav .navbar-link .box {
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    position: absolute;
+    margin-top: 4px;
+    padding: 10px;
+    visibility: hidden;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  nav .hamburger-menu,
+  nav .offcanvas {
+    display: none;
+  }
+  nav .navbar-link ul li.category:hover .box,
+  nav .navbar-link ul li.store:hover .box {
+    visibility: visible;
+  }
+  nav .navbar-link .box {
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    position: absolute;
+    margin-top: 4px;
+    padding: 10px;
+    visibility: hidden;
+  }
+}
