@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CardCategory = ({ category }) => {
-  const IMG_URL = 'http://localhost:3001/category/';
+  const IMG_URL = 'https://server-dgerz-new.herokuapp.com/category/';
   return (
     <>
       <div class="col-md-3">
